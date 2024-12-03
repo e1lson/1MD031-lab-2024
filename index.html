@@ -1,10 +1,108 @@
 <!DOCTYPE HTML>
 <html lang="en">
-   <head>
-       <title>Page title shown in window title</title>
-       <meta charset="utf-8"/>
-   </head>
-   <body>
-       <h1>Välkommen till BurgerOnline</h1>
-   </body>
+
+<head>
+  <title>Page title shown in window title</title>
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <header>
+    <h1>Välkommen till BurgerOnline</h1>
+  </header>
+
+  <nav>
+  </nav>
+
+  <div>
+    <h2>Select Burger</h2>
+    <p>This is where you select your burger.</p>
+    <div style="display: inline-block;">
+      <h2>Bacon Burger</h2>
+      <picture>
+        <img src="\public\img\Lounge_Burger_with_Bacon.jpg" height="250px" />
+      </picture>
+      <ul>
+        <li>Beef and bacon</li>
+        <li>Cheese, onion, lettuce and mayonnaise</li>
+        <li>Wheat bun (can be made gluten free)</li>
+      </ul>
+    </div>
+  
+    <div style="display: inline-block;">
+      <h2>Cheeseburger</h2>
+      <picture>
+        <img src="\public\img\Cheeseburger.jpg" height="250px" />
+      </picture>
+      <ul>
+        <li>Beef burger with cheese</li>
+        <li>Lettuce and onion</li>
+        <li>Wheat bun (can be made gluten free)</li>
+      </ul>
+    </div>
+  
+    <div style="display: inline-block;">
+      <h2>Vegetarian Burger</h2>
+      <picture>
+        <img src="\public\img\Vegetarian_burger.jpg" height="250px" />
+      </picture>
+      <ul>
+        <li>Falafel and greens</li>
+        <li>Red onion, lettuce and vegan mayonnaise</li>
+        <li>Wheat bun (can be made gluten free)</li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <section id="contact">
+      <form>
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="Name" required="required" placeholder="First and last name">
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+        </p>
+        <p>
+          <label for="street">Street</label><br>
+          <input type="text" id="street" placeholder="Street name">
+        </p>
+        <p>
+          <label for="house">House</label><br>
+          <input type="number" id="house" placeholder="House number">
+        </p>
+        <p>
+          <label for="payment">Payment</label><br>
+          <select id="payment">
+            <option selected="selected">Credit/debit card</option>
+            <option>Paybal</option>
+            <option>Klarna</option>
+            <option>Gift card</option>
+          </select>
+        </p>
+        <p>
+          <label for="gender">Gender</label><br>
+          <input type="radio" id="none" name="gender" value="none" checked />
+          <label for="none">Do not wish to say</label>
+
+          <input type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+       </p>
+      </form>
+
+      <button type="submit">
+        <img src="public/img/0_ESV-DJtKlq_5Cogc.png" height="40px">
+      </button>
+    </section>
+  </main>
+
+  <footer>
+  </footer>
+</body>
+
 </html>

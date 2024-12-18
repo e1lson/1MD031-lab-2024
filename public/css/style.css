@@ -1,22 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.allergen {
+    font-weight: 700;
+ }
+ 
+
 body {
+    font-family: "Inter";
     font-size: 12pt;
 }
 
 p {
-    color: red;
+    color: rgb(13, 15, 22);
 }
 
 h1 {
-    font-family: 'Agbalumo';
+    font-family: 'Quantico', sans-serif;
     font-size: 36pt;
+}
+h2 {
+    font-family: 'Quantico', sans-serif;
 }
 main, header, footer, nav ul {
     max-width: 40rem;
     margin: 0 auto 0 auto;
 }
 main {
-    background-color: bisque;
+    background-color: rgb(181, 248, 245);
 }
 
 /* nav ul li {

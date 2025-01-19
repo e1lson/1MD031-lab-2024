@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 body {
+    font-family: "Inter";
     font-size: 12pt;
 }
 
@@ -10,15 +11,18 @@ p {
 }
 
 h1 {
-    font-family: 'Agbalumo';
+    font-family: 'Quantico', sans-serif;
     font-size: 36pt;
+}
+h2 {
+    font-family: 'Quantico', sans-serif;
 }
 main, header, footer, nav ul {
     max-width: 40rem;
     margin: 0 auto 0 auto;
 }
 main {
-    background-color: bisque;
+    background-color: rgb(181, 248, 245);
 }
 
 nav ul li {
